@@ -1,0 +1,36 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "My Shadcn Registry",
+  "homepage": "https://my-shadcn-registry.netlify.app",
+  "items": [
+    {
+      "name": "loading-swap",
+      "description": "Swaps content with a loading spinner without layout shift.",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "src/registry/new-york/items/loading-swap/components/loading-swap.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "action-button",
+      "description": "A button that performs an action when clicked and optionally asks for user confirmation.",
+      "type": "registry:component",
+      "registryDependencies": [
+        "alert-dialog",
+        "button",
+        "sonner",
+        "https://my-shadcn-registry.netlify.app/r/loading-swap.json"
+      ],
+      "files": [
+        {
+          "path": "src/registry/new-york/items/action-button/components/action-button.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+    
+  ]
+}
