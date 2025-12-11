@@ -7,7 +7,7 @@
     "alert-dialog",
     "button",
     "sonner",
-    "https://my-shadcn-registry.netlify.app/r/loading-swap.json"
+    "https://shadcn-registry-demo.vercel.app/r/action-button.json"
   ],
   "files": [
     {
